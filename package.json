@@ -1,5 +1,5 @@
 {
-	"name": "_packagename_",
+	"name": "package_name",
 	"version": "1.0.0",
 	"description": "",
 	"source": "./src/index.ts",
@@ -20,11 +20,12 @@
 		"build-noTest": "microbundle",
 		"test": "ava test/**/*.spec.ts test/**/*.test.ts",
 		"coverage": "nyc pnpm test",
-		"report": "nyc report --reporter=json"
+		"report": "nyc report --reporter=lcov"
 	},
 	"author": "Brian Crotty",
 	"license": "MIT",
 	"devDependencies": {
+		"@istanbuljs/nyc-config-typescript": "^1.0.1",
 		"@types/node": "^16.4.1",
 		"@typescript-eslint/eslint-plugin": "^4.28.4",
 		"@typescript-eslint/parser": "^4.28.4",
@@ -34,10 +35,12 @@
 		"eslint-plugin-ava": "^12.0.0",
 		"eslint-plugin-prettier": "^3.4.0",
 		"eslint-plugin-promise": "^5.1.0",
+		"eslint-plugin-tsdoc": "^0.2.14",
 		"eslint-plugin-unicorn": "^34.0.1",
 		"microbundle": "^0.13.3",
 		"nyc": "^15.1.0",
 		"prettier": "^2.3.2",
+		"source-map-support": "^0.5.19",
 		"ts-node": "^10.1.0",
 		"ts-node-dev": "^1.1.8",
 		"tsconfig-paths": "^3.10.1",
