@@ -24,6 +24,15 @@
 	},
 	"author": "Brian Crotty",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/illumincrotty/package_name.git"
+	},
+	"bugs": {
+		"url": "https://github.com/illumincrotty/paclage_name/issues"
+	},
+	"homepage": "https://github.com/illumincrotty/package_name#readme",
+	"keywords": [],
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "^1.0.1",
 		"@types/node": "^16.4.1",
