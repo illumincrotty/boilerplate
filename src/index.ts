@@ -1,5 +1,12 @@
-export const identity = <type>(input: type): (() => type) => {
+const identity = <type>(input: type): (() => type) => {
 	return () => input;
 };
 
-export const five = (): 5 => 5;
+const fiveValue = 5;
+/**
+ * Returns five
+ * @returns 5
+ */
+const fiveFunction = (): number => fiveValue;
+
+export { identity, fiveFunction };
