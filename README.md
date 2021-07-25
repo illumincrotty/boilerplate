@@ -1,14 +1,14 @@
-# _packagename_
+# package_name
 <!-- PROJECT LOGO -->
 <img src="fillerLogo" alt="logo" width="200"/>
 
 
 <!-- Shields -->
 <!-- TODO -->
-![npm](https://img.shields.io/npm/l/_packagename_.svg)
-![size-badge](https://img.badgesize.io/https:/unpkg.com/_packagename_/dist/index.modern.js?compression=brotli)
-![dependency-count-badge](https://badgen.net/bundlephobia/dependency-count/_packagename_)
-![Types](https://badgen.net/npm/types/_packagename_)
+![npm](https://img.shields.io/npm/l/package_name.svg)
+![size-badge](https://img.badgesize.io/https:/unpkg.com/package_name/dist/index.modern.js?compression=brotli)
+![dependency-count-badge](https://badgen.net/bundlephobia/dependency-count/package_name)
+![Types](https://badgen.net/npm/types/package_name)
 
 </div>
 
@@ -20,7 +20,7 @@
 
 ## 📝 Table of Contents
 
-- [_packagename_](#packagename)
+- [package_name](#package_name)
   - [📝 Table of Contents](#-table-of-contents)
   - [🧐 About](#-about)
   - [Install](#install)
@@ -44,19 +44,19 @@ Important but basic info
 #### NPM <!-- omit in TOC -->
 
 ```sh
-npm i _packagename_
+npm i package_name
 ```
 
 #### PNPM <!-- omit in TOC -->
 
 ```sh
-pnpm add _packagename_
+pnpm add package_name
 ```
 
 #### Yarn <!-- omit in TOC -->
 
 ```sh
-yarn add _packagename_
+yarn add package_name
 ```
 
 ### CDN
@@ -66,7 +66,7 @@ yarn add _packagename_
 For Web and Deno, no install is required! Just put this line at the top of your file:
 
 ```typescript
-import { inflate } from 'https://cdn.skypack.dev/_packagename_';
+import { inflate } from 'https://cdn.skypack.dev/package_name';
 ```
 
 If you want type support with skypack, follow the directions [here]('https://docs.skypack.dev/skypack-cdn/code/javascript#using-skypack-urls-in-typescript')
@@ -74,7 +74,7 @@ If you want type support with skypack, follow the directions [here]('https://doc
 #### UNPKG <!-- omit in TOC -->
 
 ```html
-<script src="https://unpkg.com/_packagename_"></script>
+<script src="https://unpkg.com/package_name"></script>
 ```
 
 And use it like you would any other package from UNPKG
@@ -88,9 +88,10 @@ The basic set of tests are in the test script, the coverage script, and the repo
 
 Here's the great part: thanks to [microbundle](https://github.com/developit/microbundle), this package supports CJS, UMD, and ESM formats.
 That means that wherever and however you use this package — in browser or node, with import or require — you *should* be set, no configuration required.
+<!-- TODO -->
 
 ## Example
-
+<!-- TODO -->
 ```code
 put content here
 ```
@@ -106,7 +107,7 @@ Find me [@illumincrotty](https://github.com/illumincrotty) on github or [@illumi
 
 ## 🔨 Similar Tools
 If this tool isn't working for you, try one of these:
-
+<!-- TODO -->
 - [0]("_blank")
 - [1]("_blank")
 - [2]("_blank")
